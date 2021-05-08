@@ -49,4 +49,4 @@ All the APIs are documented here, you can update the documentation by running
 npm run update:docs
 ```
 
-<a href="./docs/index.html" target="_top">API Docs</a>
+<a href="https://trip-planner-docs.s3-eu-west-1.amazonaws.com/index.html" target="_top">API Docs</a>
