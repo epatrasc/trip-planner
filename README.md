@@ -7,7 +7,7 @@
 |
 <b><a href="#testing">Testing</a></b>
 |
-<b><a href="#testing">API</a></b>
+<b><a href="#api">API</a></b>
 </p>
 
 ## Overview
@@ -44,9 +44,9 @@ Consistent code style is enforced with [ESLint](http://eslint.org) using `airbnb
 
 # API
 
-## Public
+All the APIs are documented here, you can update the documentation by running 
+``` shell
+npm run update:docs
+```
 
-#### <b>POST</b> `/signup`
-
-
-## Private
+<a href="./docs/index.html" target="_top">API Docs</a>
