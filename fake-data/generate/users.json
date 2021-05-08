@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "60968dad2837e4834823dad6"
+  },
+  "name": "Maurine42",
+  "email": "Maryse_Lubowitz49@gmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dad7"
+  },
+  "name": "Henderson.Satterfield68",
+  "email": "Jayde.Connelly@yahoo.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dad8"
+  },
+  "name": "Everardo.Murazik43",
+  "email": "Andrew_Powlowski@gmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dad9"
+  },
+  "name": "Myrna44",
+  "email": "Aron_Lemke42@gmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dada"
+  },
+  "name": "Lorenza.Gulgowski72",
+  "email": "Leonor.Herzog32@hotmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dadb"
+  },
+  "name": "Madelyn.Hettinger",
+  "email": "Eldred_Yundt@gmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dadc"
+  },
+  "name": "Audreanne.Sanford",
+  "email": "Chadrick42@yahoo.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dadd"
+  },
+  "name": "Arely.Hahn75",
+  "email": "Matt_Welch@hotmail.com",
+  "role": "USER"
+},{
+  "_id": {
+    "$oid": "60968dad2837e4834823dade"
+  },
+  "name": "Jamal.Muller",
+  "email": "Emiliano_Kuphal@gmail.com",
+  "role": "USER"
+}]

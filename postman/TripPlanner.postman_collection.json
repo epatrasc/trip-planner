@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "c4cc3f01-84a0-4838-b706-3731a448b1b7",
+		"name": "TripPlanner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":{\r\n    \"name\": \"Maurine42\",\r\n    \"email\": \"Maryse_Lubowitz49@gmail.com\",\r\n    \"role\": \"USER\"\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/places",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/places",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"places"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/places/:placeId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/places/:placeId",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"places",
+						":placeId"
+					],
+					"variable": [
+						{
+							"key": "placeId",
+							"value": "28821"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/places/:placeId/reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/places/:placeId/reviews",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"places",
+						":placeId",
+						"reviews"
+					],
+					"variable": [
+						{
+							"key": "placeId",
+							"value": "28821"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/reviews/:reviewId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/reviews/:reviewId",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"reviews",
+						":reviewId"
+					],
+					"variable": [
+						{
+							"key": "reviewId",
+							"value": "60969a752837e4834823dae0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/reviews/create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWF1cmluZTQyIiwiZW1haWwiOiJNYXJ5c2VfTHVib3dpdHo0OUBnbWFpbC5jb20iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTYyMDQ4MDQyOH0.ne8XEi85v3o230vgpcXkES23_0geSKWs3WOhRQwLLPI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"review\":{\r\n    \"placeId\": \"6095c1b42837e4834823dad3\",\r\n    \"userId\": \"60968dad2837e4834823dadc\",\r\n    \"title\": \"Long title\",\r\n    \"description\": \"Long description.\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/reviews/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"reviews",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
