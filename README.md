@@ -25,7 +25,7 @@ Authentication is handled with JWT.
 
 ### Getting started
 
-1. Clone the repository `git clone XXXXXXXX`
+1. Clone the repository `git clone https://github.com/epatrasc/trip-planner.git`
 2. Run `npm install`
 3. Create the file `.env` at the root level
 4. Add the following parameters:
