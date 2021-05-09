@@ -29,7 +29,7 @@ Authentication is handled with JWT.
 
 1. Clone the repository `git clone https://github.com/epatrasc/trip-planner.git`
 2. Run `npm install`
-3. Create the file `.env` at the root level
+3. Create file `.env` at root level
 4. Add the following parameters:
    1. DB_CONNECTION_STRING = [mongodb string connection]
    2. JWT_SECRET = [string used for JWT encryption]
