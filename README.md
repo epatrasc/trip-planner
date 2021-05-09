@@ -42,6 +42,7 @@ Authentication is handled with JWT.
 Run all the tests with `npm test`, use `npm run test:watch` for hot-reloading.
 
 Test are run with [Jest](https://jestjs.io).
+
 Consistent code style is enforced with [ESLint](http://eslint.org) using `airbnb-base` rules.
 
 # API
