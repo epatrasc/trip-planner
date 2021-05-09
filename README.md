@@ -15,7 +15,8 @@
 TripPlanner is the definitive API for planning your trips.
 You can view places, leave or remove reviews. 
 Some of the API are public and doesn't require authentication.
-For the access to the private APIs you need to `/signup` with your email.
+
+In order the access to the private APIs you need to `/signup` with your email.
 Authentication is handled with JWT.
 
 
