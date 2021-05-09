@@ -35,7 +35,7 @@ Authentication is handled with JWT.
    2. JWT_SECRET = [string used for JWT encryption]
 5. Start the server with `npm run start`
 6. Start the server with hot-reloading `npm run develop`
-7. Use [`postman collection`](./postman/TripPlanner.postman_collection.json)  to test the API
+7. Use [`postman collection`](./postman/TripPlanner.postman_collection.json)  to play with the API.
 
 ## Testing
 
